@@ -3,11 +3,11 @@ let v2 = 4
 //alert("3 times 4" + equals + v1 * v2);
 
  // This sets the general styling for the divs within the section tag using .style
-            let section = document.getElementsById("s1")
+            let section = document.getElementById("s1")
             section.style.width = "50%"
             section.style.textAlign = "center"
             section.style.fontFamily = "arial, serif"
-            section.stlye.fontWeight = "bold"
+            section.style.fontWeight = "bold"
             section.style.fontStyle = "italic"
             section.style.fontSize = "20px"
 
@@ -16,31 +16,31 @@ let v2 = 4
 			//.style.backgroundColor is used to assign a different background color to each div
 			
             // RED
-            const red = document.getelementById("red")
-            red.innerHTML = "RED"
+            const red = document.getElementById("red")
+            red.innerHTML = "red"
             red.style.backgroundColor = "red"
 
             // ORANGE
             const orange = document.getElementById("orange")
-            orange.innerhtml = "ORANGE"
+            orange.innerHTML = "orange"
             orange.style.backgroundColor = "orange"
 
             // YELLOW
             const yellow = document.getElementById("yellow")
-            yellow.innerHTML = "YELLOW"
+            yellow.innerHTML = "yellow"
             yellow.style.backgroundColor = "yellow"
 
             // GREEN
-            const purple = document.getElementById("green")
-            green.innerHTML = "GREEN"
+            const green = document.getElementById("green")
+            green.innerHTML = "green"
             green.style.backgroundColor = "green"
 
             // INDIGO
             const indigo = document.getElementById("indigo")
-            indigo.innerHTML = "INDIGO"
+            indigo.innerHTML = "indigo"
             indigo.style.backgroundColor = "indigo"
 
             // PURPLE
             const violet = document.getElementById("violet")
-            violet.innerHTML = "VIOLET"
+            violet.innerHTML = "violet"
             violet.style.backgroundColor = "violet"
